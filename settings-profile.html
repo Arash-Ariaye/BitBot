@@ -1,0 +1,355 @@
+﻿<!DOCTYPE html>
+<html lang="fa-IR" dir="RTL">
+
+    
+<!-- (Arash_Ariaye-> TradeBot) Page: /settings-profile.html  -->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>کش - کیت رابط کاربری صرافی رمز ارز</title>
+	<!-- Favicon icon -->
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+	<!-- Custom Stylesheet -->
+
+	<link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+
+	<div id="preloader"><i>.</i><i>.</i><i>.</i></div>
+
+	<div id="main-wrapper">
+
+	    <div class="header">
+		<div class="container">
+		    <div class="row">
+			<div class="col-xxl-12">
+			    <div class="header-content">
+				<div class="header-left">
+				    <div class="brand-logo">
+					<a href="index.html">
+					    <img src="images/logo.png" alt="">
+					    <span>کَش</span>
+					</a>
+				    </div>
+				    <div class="search">
+					<form action="#">
+					    <div class="input-group">
+						<input type="text" class="form-control" placeholder="جستجو">
+						<span class="input-group-text"><i class="icofont-search"></i></span>
+					    </div>
+					</form>
+				    </div>
+				</div>
+
+				<div class="header-right">
+				    <div class="dark-light-toggle" onclick="themeToggle()">
+					<span class="dark"><i class="icofont-moon"></i></span>
+					<span class="light"><i class="icofont-sun-alt"></i></span>
+				    </div>
+				    <div class="notification dropdown">
+					<div class="notify-bell" data-toggle="dropdown">
+					    <span><i class="icofont-alarm"></i></span>
+					</div>
+					<div class="dropdown-menu dropdown-menu-left notification-list">
+					    <h4>اطلاع رسانی ها</h4>
+					    <div class="lists">
+						<a href="#" class="">
+						    <div class="d-flex align-items-center">
+							<span class="ml-3 icon success"><i class="icofont-check"></i></span>
+							<div>
+							    <p>حساب با موفقیت ایجاد شد</p>
+							    <span>2020-11-04 12:00:23</span>
+							</div>
+						    </div>
+						</a>
+						<a href="#" class="">
+						    <div class="d-flex align-items-center">
+							<span class="ml-3 icon fail"><i class="icofont-close"></i></span>
+							<div>
+							    <p>احراز هویت انجام نشد</p>
+							    <span>2020-11-04 12:00:23</span>
+							</div>
+						    </div>
+						</a>
+						<a href="#" class="">
+						    <div class="d-flex align-items-center">
+							<span class="ml-3 icon success"><i class="icofont-check"></i></span>
+							<div>
+							    <p>تاییدیه دستگاه انجام شد</p>
+							    <span>2020-11-04 12:00:23</span>
+							</div>
+						    </div>
+						</a>
+						<a href="#" class="">
+						    <div class="d-flex align-items-center">
+							<span class="ml-3 icon pending"><i class="icofont-warning"></i></span>
+							<div>
+							    <p>در انتظار تایید شماره موبایل</p>
+							    <span>2020-11-04 12:00:23</span>
+							</div>
+						    </div>
+						</a>
+
+						<a href="settings-activity.html">بیشتر <i class="icofont-simple-left"></i></a>
+
+					    </div>
+					</div>
+				    </div>
+
+				    <div class="profile_log dropdown">
+					<div class="user" data-toggle="dropdown">
+					    <span class="thumb"><img src="images/profile/2.png" alt=""></span>
+					    <span class="arrow"><i class="icofont-angle-down"></i></span>
+					</div>
+					<div class="dropdown-menu dropdown-menu-left">
+					    <div class="user-email">
+						<div class="user">
+						    <span class="thumb"><img src="images/profile/2.png" alt=""></span>
+						    <div class="user-info">
+							<h5>محمد محمدی</h5>
+							<span>test@gmail.com</span>
+						    </div>
+						</div>
+					    </div>
+
+					    <div class="user-balance">
+						<div class="available">
+						    <p>موجودی</p>
+						    <span>0.00 BTC</span>
+						</div>
+						<div class="total">
+						    <p>کل</p>
+						    <span>0.00 دلار</span>
+						</div>
+					    </div>
+					    <a href="profile.html" class="dropdown-item">
+						<i class="icofont-ui-user"></i>پروفایل
+					    </a>
+					    <a href="wallet.html" class="dropdown-item">
+						<i class="icofont-wallet"></i>کیف پول
+					    </a>
+					    <a href="settings-profile.html" class="dropdown-item">
+						<i class="icofont-ui-settings"></i> تنظیمات
+					    </a>
+					    <a href="settings-activity.html" class="dropdown-item">
+						<i class="icofont-history"></i> فعالیت
+					    </a>
+					    <a href="lock.html" class="dropdown-item">
+						<i class="icofont-lock"></i>قفل حساب
+					    </a>
+					    <a href="signin.html" class="dropdown-item logout">
+						<i class="icofont-logout"></i> خروج
+					    </a>
+					</div>
+				    </div>
+				</div>
+
+			    </div>
+			</div>
+		    </div>
+		</div>
+	    </div>
+
+	    <div class="sidebar">
+		<div class="brand-logo">
+		    <a href="index.html"><img src="images/logo.png" alt="">
+		    </a>
+		</div>
+		<div class="menu">
+		    <ul>
+			<li>
+			    <a href="index.html" data-toggle="tooltip" data-placement="right" title="خانه">
+				<span><i class="icofont-ui-home"></i></span>
+			    </a>
+			</li>
+			<li><a href="trade.html" data-toggle="tooltip" data-placement="right" title="خرید/فروش">
+				<span><i class="icofont-stack-exchange"></i></span>
+			    </a>
+			</li>
+			<li><a href="wallet.html" data-toggle="tooltip" data-placement="right" title="کیف پول">
+				<span><i class="icofont-wallet"></i></span>
+			    </a>
+			</li>
+			<li><a href="price.html" data-toggle="tooltip" data-placement="right" title="قیمت ها">
+				<span><i class="icofont-price"></i></span>
+			    </a>
+			</li>
+			<li class="logout"><a href="signin.html" data-toggle="tooltip" data-placement="right" title="خروج">
+				<span><i class="icofont-power"></i></span>
+			    </a>
+			</li>
+		    </ul>
+
+		    <p class="copyright">
+			&#169; <a href="#">کَش</a>
+		    </p>
+		</div>
+	    </div>
+
+	    <div class="content-body">
+		<div class="container">
+		    <div class="row">
+			<div class="col-xxl-12 col-xl-12">
+			    <div class="page-title">
+				<h4>پروفایل</h4>
+			    </div>
+			    <div class="card">
+				<div class="card-header">
+				    <div class="settings-menu">
+					<a href="settings-profile.html">پروفایل</a>
+					<a href="settings-application.html">اپلیکیشن</a>
+					<a href="settings-security.html">امنیت</a>
+					<a href="settings-activity.html">فعالیت</a>
+					<a href="settings-privacy.html">حریم خصوصی</a>
+					<a href="settings-payment-method.html">روش های پرداخت</a>
+					<a href="settings-api.html">ای پی آی</a>
+					<a href="settings-fees.html">قیمت ها</a>
+				    </div>
+				</div>
+				<div class="card-body">
+				    <div class="row">
+					<div class="col-xxl-6 col-xl-6 col-lg-6">
+					    <div class="card">
+						<div class="card-header">
+						    <h4 class="card-title">پروفایل کاربری</h4>
+						</div>
+						<div class="card-body">
+						    <form action="#">
+							<div class="row g-3">
+							    <div class="col-xxl-12">
+								<label class="form-label">نام</label>
+								<input type="text" class="form-control" placeholder="نام">
+							    </div>
+							    <div class="col-xxl-12">
+								<div class="d-flex align-items-center">
+								    <img class="ml-3 rounded-circle ml-0 ml-sm-3" src="images/profile/2.png" width="55" height="55" alt="">
+								    <div class="media-body">
+									<h4 class="mb-0">محمد محمدی</h4>
+									<p class="mb-0">حداکثر اندازه فایل 5 مگ
+									</p>
+								    </div>
+								</div>
+							    </div>
+							    <div class="col-xxl-12">
+								<div class="form-file">
+								    <input type="file" class="form-file-input" id="customFile">
+								    <label class="form-file-label" for="customFile">
+									<span class="form-file-text">انتخاب فایل...</span>
+									<span class="form-file-button">انتخاب</span>
+								    </label>
+								</div>
+							    </div>
+							    <div class="col-xxl-12">
+								<button class="btn btn-success waves-effect">ذخیره</button>
+							    </div>
+							</div>
+						    </form>
+						</div>
+					    </div>
+					</div>
+					<div class="col-xxl-6 col-xl-6 col-lg-6">
+					    <div class="card">
+						<div class="card-header">
+						    <h4 class="card-title">پروفایل کاربری</h4>
+						</div>
+						<div class="card-body">
+						    <form action="#">
+							<div class="row g-3">
+							    <div class="col-xxl-12">
+								<label class="form-label">ایمیل جدید</label>
+								<input type="email" class="form-control" placeholder="ایمیل">
+							    </div>
+							    <div class="col-xxl-12">
+								<label class="form-label">پسورد جدید</label>
+								<input type="password" class="form-control" placeholder="**********">
+								<small class="mt-2 mb-0 d-block">
+								    احراز هویت دو عاملی را در صفحه امنیتی فعال کنید
+								</small>
+							    </div>
+							    <div class="col-12">
+								<button class="btn btn-success waves-effect">ذخیره</button>
+							    </div>
+							</div>
+						    </form>
+						</div>
+					    </div>
+					</div>
+					<div class="col-xxl-12">
+					    <div class="card">
+						<div class="card-header">
+						    <h4 class="card-title">اطلاعات شخصی</h4>
+						</div>
+						<div class="card-body">
+						    <form method="post" name="myform" class="personal_validate" novalidate="novalidate">
+							<div class="row g-4">
+							    <div class="col-xxl-6 col-xl-6 col-lg-6">
+								<label class="form-label">نام</label>
+								<input type="text" class="form-control" placeholder="محمد محمدی" name="fullname">
+							    </div>
+							    <div class="col-xxl-6 col-xl-6 col-lg-6">
+								<label class="form-label">ایمیل</label>
+								<input type="email" class="form-control" placeholder="Hello@example.com" name="email">
+							    </div>
+							    <div class="col-xxl-6 col-xl-6 col-lg-6">
+								<label class="form-label">تاریخ تولد</label>
+								<input type="text" class="form-control hasDatepicker" placeholder="10-10-2020" id="datepicker" autocomplete="off" name="dob">
+							    </div>
+							    <div class="col-xxl-6 col-xl-6 col-lg-6">
+								<label class="form-label">آدرس فعلی</label>
+								<input type="text" class="form-control" placeholder="ونک ، شیخ بهائی" name="presentaddress">
+							    </div>
+							    <div class="col-xxl-6 col-xl-6 col-lg-6">
+								<label class="form-label">آدرس دیگر</label>
+								<input type="text" class="form-control" placeholder="ونک ، ملاصدرا" name="permanentaddress">
+							    </div>
+							    <div class="col-xxl-6 col-xl-6 col-lg-6">
+								<label class="form-label">شهر</label>
+								<input type="text" class="form-control" placeholder="تهران" name="city">
+							    </div>
+							    <div class="col-xxl-6 col-xl-6 col-lg-6">
+								<label class="form-label">کدپستی</label>
+								<input type="text" class="form-control" placeholder="12345678907" name="postal">
+							    </div>
+							    <div class="col-xxl-6 col-xl-6 col-lg-6">
+								<label class="form-label">کشور</label>
+								<select class="form-select" name="country">
+								    <option value="">انتخاب</option>
+								    <option value="iran">ایران</option>
+								</select>
+							    </div>
+
+							    <div class="col-12">
+								<button class="btn btn-success pl-5 pr-5 waves-effect">ذخیره</button>
+							    </div>
+							</div>
+						    </form>
+						</div>
+					    </div>
+					</div>
+				    </div>
+				</div>
+			    </div>
+			</div>
+
+		    </div>
+		</div>
+	    </div>
+
+	</div>
+
+
+
+	<script src="vendor/jquery/jquery.min.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+	<script src="js/scripts.js"></script>
+	<script>
+
+	</script>
+    </body>
+
+
+<!-- (Arash_Ariaye-> TradeBot) Page: /settings-profile.html  -->
+</html>
