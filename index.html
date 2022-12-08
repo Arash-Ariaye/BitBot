@@ -19,7 +19,7 @@
 <div id="preloader"><i>.</i><i>.</i><i>.</i></div>
 
 <div id="main-wrapper">
-
+    <!--    هدر سایت-->
     <div class="header">
         <div class="container">
             <div class="row">
@@ -119,8 +119,10 @@
                                     <!--                                        <i class="icofont-ui-user"></i>پروفایل-->
                                     <!--                                    </a>-->
                                     <a href="profile.html" class="dropdown-item">
-                                        <i class="icofont-ui-user"></i>بیت بین
-                                        <i class="icofont-ui-user"></i>کوکوین
+                                        <i class="icofont-wallet"></i>بیت بین
+                                    </a>
+                                    <a href="profile.html" class="dropdown-item">
+                                        <i class="icofont-wallet"></i>کو کوین
                                     </a>
 
                                     <a href="settings-profile.html" class="dropdown-item">
@@ -141,7 +143,9 @@
             </div>
         </div>
     </div>
+    <!--    پایان هدر-->
 
+    <!--سایدبار منو پایین-->
     <div class="sidebar">
         <div class="brand-logo">
             <a href="index.html"><img src="images/logo.png" alt="">
@@ -178,15 +182,17 @@
             </p>
         </div>
     </div>
+    <!--پایان ساید بار-->
 
-
+    <!--    بدنه اصلی کانتنت-->
     <div class="content-body">
         <div class="container">
-            <div class="row">
+            <div class="row justify-content-center">
+                <!--                ******    لیست تراکنش ها *****-->
                 <div class="col-lg-12 col-md-12">
                     <div class="card">
                         <div class="card-header">
-                            <h4 class="card-title">لیست سفارشات</h4>
+                            <h4 class="card-title"><i class="icofont-list"></i> لیست سفارشات</h4>
                         </div>
                         <div class="card-body">
                             <div class="table-responsive ">
@@ -237,10 +243,36 @@
                         </div>
                     </div>
                 </div>
+                <!--                پایان لیست تراکنش ها-->
+
+                <!--                ابزار-->
+                <div class="col-lg-12 col-md-12 justify-content-between">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title"><i class="icofont-tools"></i> ابزار ها</h4>
+                        </div>
+                        <div class="card-body row p-3">
+                            <div class="col-lg-6 col-md-6">
+                                <img class="mb-3 img-thumbnail" src="images/bitpin-logo.png" alt="">
+                                <div class="container-fluid form-file-button">
+                                    <p class="text-center h3">بیت پین</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 mt-5">
+                                <img class="mb-3 img-thumbnail" src="images/kucoin-logo.png" alt="">
+                                <div class="container-fluid form-file-button">
+                                    <p class="text-center h3">کوکوین</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--پایان ابزار ؟-->
+                <!--***********     تاریخچه تراکنش ها  **********-->
                 <div class="col-lg-12 col-md-12">
                     <div class="card">
                         <div class="card-header">
-                            <h4 class="card-title">تاریخچه تراکنش ها</h4>
+                            <h4 class="card-title"><i class="icofont-list"></i> تاریخچه تراکنش ها</h4>
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
@@ -269,7 +301,7 @@
                                             <i class="cc XRP"></i> ریپل
                                         </td>
                                         <td>1233.123 <i class="cc XRP"></i></td>
-                                        <td><i class="icofont-dollar">15000</td>
+                                        <td><i class="icofont-dollar"></i>15000</td>
                                         <td>%53</td>
                                         <td>*</td>
                                         <td>12:22AM</td>
@@ -285,8 +317,8 @@
                                             <i class="cc BTC"></i> بیت کوین
                                         </td>
                                         <td>0.010242 <i class="cc BTC"></i></td>
-                                        <td><i class="icofont-dollar">5000</td>
-                                        <td>%12 </td>
+                                        <td><i class="icofont-dollar"></i>5000</td>
+                                        <td>%12</td>
                                         <td>*</td>
                                         <td>11:22PM</td>
                                     </tr>
@@ -297,12 +329,15 @@
                         </div>
                     </div>
                 </div>
+                <!--                پایان تاریخچه تراکنش ها-->
 
             </div>
         </div>
     </div>
 </div>
+<!--پایان بدنه اصلی-->
 
+<!--تایید خروج کاربر-->
 <script>
     function exit() {
         let logout = 'signin.html';
@@ -310,6 +345,7 @@
             window.location.href = logout;
         }
     }
+
 </script>
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

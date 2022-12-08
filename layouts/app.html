@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="RTL">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>بیت بات</title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="vendor/slick/slick.css">
+    <!-- <link rel="stylesheet" type="text/css" href="./vendor/slick/slick-theme.css" /> -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div id="preloader"><i>.</i><i>.</i><i>.</i></div>
+
+<div id="main-wrapper">
+   
+(---- header.html ----- )
+
+    <!--سایدبار منو پایین-->
+    <div class="sidebar">
+        <div class="brand-logo">
+            <a href="index.html"><img src="images/logo.png" alt="">
+            </a>
+        </div>
+        <div class="menu">
+            <ul>
+                <li>
+                    <a href="index.html" data-toggle="tooltip" data-placement="right" title="خانه">
+                        <span><i class="icofont-ui-home"></i></span>
+                    </a>
+                </li>
+                <li><a href="trade.html" data-toggle="tooltip" data-placement="right" title="آنالیز بازار">
+                    <span><i class="icofont-search-stock"></i></span>
+                </a>
+                </li>
+                <li><a href="wallet.html" data-toggle="tooltip" data-placement="right" title="ربات">
+                    <span><i class="icofont-robot-face"></i></span>
+                </a>
+                </li>
+                <li><a href="price.html" data-toggle="tooltip" data-placement="right" title="تارگت ساز">
+                    <span><i class="icofont-chart-arrows-axis"></i></span>
+                </a>
+                </li>
+                <li class="logout">
+                    <a href="#" onclick="exit()" data-toggle="tooltip" data-placement="right" title="خروج">
+                        <span><i class="icofont-power"></i></span>
+                    </a>
+                </li>
+            </ul>
+
+            <p class="copyright">
+                &#169; <a href="#">بیت بات</a>
+            </p>
+        </div>
+    </div>
+    <!--پایان ساید بار-->
+
+    <!--    بدنه اصلی کانتنت-->
+    <div class="content-body">
+        <div class="container">
+           
+		
+	(----- pages.html  ----)
+
+	</div>
+    </div>
+</div>
+<!--پایان بدنه اصلی-->
+
+<!--تایید خروج کاربر-->
+<script>
+    function exit() {
+        let logout = 'signin.html';
+        if (confirm('میخواهید خارج شوید؟') === true) {
+            window.location.href = logout;
+        }
+    }
+</script>
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<script src="vendor/basic-table/jquery.basictable.min.js"></script>
+<script src="js/plugins/basic-table-init.js"></script>
+
+<script src="js/scripts.js"></script>
+
+</body>
+
+</html>
+
